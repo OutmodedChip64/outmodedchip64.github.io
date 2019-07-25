@@ -1,0 +1,47 @@
+.cubicleJumbo {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://efweb.ddns.net/Cubicle%20Trial/bg.png");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	border-radius: 0px !important;
+	margin-bottom: 2px !important;
+}
+
+.pixelJumbo {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://efweb.ddns.net/PlayerPixel%20Development/bg.png");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	border-radius: 0px !important;
+}
+
+.pad-the-top {
+	padding-top: 20px;
+}
+
+.pad-the-bottom {
+	padding-bottom: 20px;
+}
+
+.unity-fix {
+	top: 500px !important;
+}
+
+.unitySizer {
+	width: 960px;
+	height: 600px;
+}
+
+.blue-footer {
+	background-color: #007bff;
+	color: white;
+}
+
+.light-blue-link {
+	color: #65eeff
+}
+
+.blogJumbo {
+	width: 40%;
+	margin-left: 5%;
+}
