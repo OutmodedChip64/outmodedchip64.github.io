@@ -2,6 +2,7 @@
 layout: post
 title: How to dual boot Ubuntu 18.10 with Windows 10 | EFweb
 background-image: /blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/TitlePicture.png
+description: Learn how to dual boot Ubuntu 18.10 with Windows 10 here on EFweb Blog!
 ---
 
 **EDIT: This story is for dual booting Ubuntu 18.10. If you would like to upgrade to a newer version, follow this tutorial, and then open terminal and type these commands:**
