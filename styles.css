@@ -1,8 +1,19 @@
+.blogJumbo {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://outmodedchip64.github.io/blog/EFwebBlogScreenshot.png");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	width: 100%;
+	border-radius: 0px !important;
+	margin-bottom: 2px !important;
+}
+
 .cubicleJumbo {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://outmodedchip64.github.io/Cubicle%20Trial/bg.png");
 	background-position: center;
 	background-size: cover;
 	color: white;
+	width: 100%;
 	border-radius: 0px !important;
 	margin-bottom: 2px !important;
 }
@@ -12,6 +23,7 @@
 	background-position: center;
 	background-size: cover;
 	color: white;
+	width: 100%;
 	border-radius: 0px !important;
 }
 
@@ -35,13 +47,73 @@
 .blue-footer {
 	background-color: #007bff;
 	color: white;
+	margin-top: 40px;
+}
+
+.unity-footer {
+	background-color: #007bff;
+	color: white;
+	margin-top: 750px;
 }
 
 .light-blue-link {
-	color: #65eeff
+	color: #65eeff;
 }
 
-.blogJumbo {
-	width: 40%;
-	margin-left: 5%;
+.blog-link {
+	color: #777777;
+}
+
+.blog-link:hover {
+	color: #333333;
+}
+
+.blog-footer {
+	background-color: #dddddd;
+	margin-top: 40px;
+}
+
+.blog-text {
+	width: 50%;
+    margin: 0 auto;
+	font-size: 20px;
+}
+
+.blog-text h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-text img {
+	width: 550px;
+	padding-bottom: 20px;
+}
+
+.blog-post-item {
+	background-position: center;
+	background-size: cover;
+	color: white;
+	width: 75%;
+	height: 264px;
+    margin: 0 auto;
+	border-radius: 0px !important;
+	margin-bottom: 2px !important;
+}
+
+.blog-post-item a {
+	color: white;
+}
+
+.blog-post-item p {
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
