@@ -14,6 +14,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/styles.css">
 	  
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131662500-3"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-131662500-3');
+	</script>
 	  
     <title>{{ page.title }}</title>
   </head>
@@ -28,13 +37,13 @@
 	  <div class="collapse navbar-collapse" id="navbarColor01">
 		<ul class="navbar-nav mr-auto">
 		  <li class="nav-item">
-			<a class="nav-link active" href="/">Home</a>
+			<a class="nav-link {{ page.homeActive }}" href="/">Home</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="/Cubicle Trial/">Cubicle Trial</a>
+			<a class="nav-link {{ page.cubicleActive }}" href="/Cubicle Trial/">Cubicle Trial</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="/PlayerPixel Development/">PlayerPixel Development</a>
+			<a class="nav-link {{ page.playerPixelActive }}" href="/PlayerPixel Development/">PlayerPixel Development</a>
 		  </li>
 		  <li class="nav-item">
 			<a class="nav-link" href="/blog/">Blog</a>
