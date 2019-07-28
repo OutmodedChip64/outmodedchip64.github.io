@@ -36,7 +36,7 @@
 }
 
 .unity-fix {
-	top: 500px !important;
+	top: 540px !important;
 }
 
 .unitySizer {
@@ -112,8 +112,48 @@
     -webkit-line-clamp: 2;
 }
 
-.img-center {
+.post-bg-image {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 70%;
+}
+
+.post-headers {
+	width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 991px) {
+	h1 {
+		font-size: 30px;
+	}
+	
+	h2 {
+		font-size: 20px;
+	}
+	
+	.posts {
+		padding-left: 0px !important;
+	}
+	
+	.blog-post-item {
+		width: 100% !important;
+	}
+	
+	.blog-post-item h1 {
+		font-size: 20px;
+	}
+	
+	.blog-text {
+		width: 90%
+	}
+	
+	.blog-text img {
+		width: 80%;
+	}
+	
+	.post-bg-image {
+		width: 80%;
+	}
 }

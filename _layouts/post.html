@@ -1,10 +1,14 @@
 ---
 layout: blog
 ---
-<img class="img-center" src="{{ page.background-image }}" alt="TitlePicture">
-<h1 class="text-center pad-the-top">{{ page.title }}</h1>
-<p class="text-center meta pad-the-bottom">{{ page.date | date_to_string }}</p>
+<img class="post-bg-image" src="{{ page.background-image }}" alt="TitlePicture">
 
-<div class="post blog-text">
+<div class="post post-headers">
+  <h1 class="text-center pad-the-top">{{ page.name }}</h1>
+  <p class="text-center meta pad-the-bottom">{{ page.date | date_to_string }}</p>
+</div>
+
+
+<div class="blog-text">
   {{ content }}
 </div>
