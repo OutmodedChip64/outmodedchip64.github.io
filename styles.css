@@ -148,7 +148,15 @@
 	.blog-text {
 		width: 90%
 	}
+
+	.blog-text h2 {
+		font-size: 30px;
+	}
 	
+	.blog-text h3 {
+		font-size: 25px;
+	}
+
 	.blog-text img {
 		width: 80%;
 	}
