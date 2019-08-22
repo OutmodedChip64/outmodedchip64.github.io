@@ -1,3 +1,70 @@
+code {
+	background-color: rgba(27,31,35,.05);
+	color: black;
+    border-radius: 3px;
+    font-size: 85%;
+    margin: 0;
+    padding: .2em .4em;
+}
+
+.mainJumbotrons {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.semiJumbotrons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mainJumbo {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("https://outmodedchip64.github.io/blog/EFwebBlogScreenshot.png");
+	background-position: center;                      
+	background-size: cover;                           
+	color: white;                                     
+	width: 100%;                                      
+	height: 600px;                                    
+	border-radius: 0px !important;                    
+	margin-bottom: 2px !important;                    
+}                                                     
+													  
+.mainJumboText {                                      
+	margin: 150px auto;                               
+}                                                     
+													  
+.semiJumboOne {                                       
+	background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("https://outmodedchip64.github.io/Cubicle%20Trial/bg.png");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	width: calc(50% - 1px);
+	height: 400px;
+	border-radius: 0px !important;
+	margin-bottom: 2px !important;
+	margin-right: 1px !important;
+	vertical-align: middle;
+	float: left;
+}
+
+.semiJumboTwo {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("https://outmodedchip64.github.io/PlayerPixel%20Development/bg.png");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	width: calc(50% - 1px);
+	height: 400px;
+	border-radius: 0px !important;
+	margin-bottom: 2px !important;
+	margin-left: 1px !important;
+	vertical-align: middle;
+	float: left;
+}
+
+.semiJumboText {
+	margin: 50px auto;
+}
+
 .blogJumbo {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://outmodedchip64.github.io/blog/EFwebBlogScreenshot.png");
 	background-position: center;
@@ -74,7 +141,7 @@
 }
 
 .blog-text {
-	width: 50%;
+	max-width: 768px;
     margin: 0 auto;
 	font-size: 20px;
 }
@@ -117,11 +184,13 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
+	max-width: 760px;
 }
 
 .post-headers {
 	width: 80%;
     margin: 0 auto;
+	max-width: 760px;
 }
 
 .ninety-headers {
@@ -168,6 +237,6 @@
 	}
 	
 	.post-bg-image {
-		width: 80%;
+		max-width: 760px;
 	}
 }

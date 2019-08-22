@@ -25,7 +25,7 @@ In this article, I will teach you exactly how to dual boot one of the most popul
   - A USB port for installation
   - (Optional, but helpful) Internet access
   
-* The Ubuntu iso file (Download Ubuntu 18.10 here)
+* The Ubuntu iso file (Download Ubuntu 18.10 [here](https://www.ubuntu.com/download/desktop))
 
 * A USB drive of at least 2 GB
 

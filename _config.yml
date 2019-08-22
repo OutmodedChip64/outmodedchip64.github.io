@@ -1,5 +1,7 @@
-name: EFweb
+title: EFweb
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:title
 plugins:
   - jekyll-sitemap
+exclude:
+  - react
