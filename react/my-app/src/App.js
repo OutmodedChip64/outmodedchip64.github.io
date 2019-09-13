@@ -5,6 +5,7 @@ import { Route, NavLink, BrowserRouter } from "react-router-dom";
 import Home from './Home';
 import Cubicle from './Cubicle';
 import PlayerPixel from './PlayerPixel';
+import Blog from './Blog';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -38,6 +39,7 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route path="/cubicle" component={Cubicle}/>
           <Route path="/playerpixel" component={PlayerPixel}/>
+          <Route path="/blog" component={Blog}/>
         </div>
 
         <div className="footer text-center">

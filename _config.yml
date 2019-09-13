@@ -1,5 +1,0 @@
-title: EFweb
-markdown: kramdown
-permalink: /blog/:title
-plugins:
-  - jekyll-sitemap

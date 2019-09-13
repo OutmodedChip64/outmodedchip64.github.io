@@ -1,1 +1,0 @@
-var unityInstance = UnityLoader.instantiate("unityContainer", "Build/PlayerPixel for Web Build.json", {onProgress: UnityProgress});
