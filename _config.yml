@@ -3,5 +3,3 @@ markdown: kramdown
 permalink: /blog/:title
 plugins:
   - jekyll-sitemap
-exclude:
-  - react
