@@ -1,4 +1,6 @@
 title: EFweb
+source: legacy/
+destination: legacy/
 markdown: kramdown
 permalink: /blog/:title
 plugins:
