@@ -6,6 +6,7 @@ import Home from './Home';
 import Cubicle from './Cubicle';
 import PlayerPixel from './PlayerPixel';
 import Blog from './Blog';
+import FlynnBot from './FlynnBot'
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -29,8 +30,9 @@ function App() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link><NavLink to="/cubicle" className="navLink">Cubicle Trial</NavLink></Nav.Link>
-              <Nav.Link href="/playerpixel"><NavLink to="/playerpixel" className="navLink">PlayerPixel Development</NavLink></Nav.Link>
-              <Nav.Link href="/blog"><NavLink to="/blog" className="navLink">Blog</NavLink></Nav.Link>
+              <Nav.Link><NavLink to="/playerpixel" className="navLink">PlayerPixel Development</NavLink></Nav.Link>
+              <Nav.Link><NavLink to="/flynnbot" className="navLink">FlynnBot</NavLink></Nav.Link>
+              <Nav.Link><NavLink to="/blog" className="navLink">Blog</NavLink></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -39,6 +41,7 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route path="/cubicle" component={Cubicle}/>
           <Route path="/playerpixel" component={PlayerPixel}/>
+          <Route path="/flynnbot" component={FlynnBot}/>
           <Route path="/blog" component={Blog}/>
         </div>
 
