@@ -5,8 +5,8 @@ class Cubicle extends React.Component {
   constructor(props) {
     super(props);
     this.unityContent = new UnityContent(
-      "cubicle/Build/Cubicle for Web Build.json",
-      "cubicle/Build/UnityLoader.js"
+      "/cubicle/Build/Cubicle for Web Build.json",
+      "/cubicle/Build/UnityLoader.js"
     );
   }
 

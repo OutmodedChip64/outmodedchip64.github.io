@@ -5,8 +5,8 @@ class PlayerPixel extends React.Component {
   constructor(props) {
     super(props);
     this.unityContent = new UnityContent(
-      "playerpixel/Build/PlayerPixel for Web Build.json",
-      "playerpixel/Build/UnityLoader.js"
+      "/playerpixel/Build/PlayerPixel for Web Build.json",
+      "/playerpixel/Build/UnityLoader.js"
     );
   }
 
