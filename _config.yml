@@ -1,7 +1,6 @@
 title: EFweb Legacy
 source: legacy/
-destination: legacy/
 markdown: kramdown
-permalink: legacy/blog/:title
+permalink: blog/:title
 plugins:
   - jekyll-sitemap

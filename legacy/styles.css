@@ -19,7 +19,7 @@ code {
 }
 
 .mainJumbo {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("https://outmodedchip64.github.io/blog/EFwebBlogScreenshot.png");
+	background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("https://outmodedchip64.github.io/legacy/blog/EFwebBlogScreenshot.png");
 	background-position: center;                      
 	background-size: cover;                           
 	color: white;                                     
@@ -34,7 +34,7 @@ code {
 }                                                     
 													  
 .semiJumboOne {                                       
-	background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("https://outmodedchip64.github.io/Cubicle%20Trial/bg.png");
+	background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("https://outmodedchip64.github.io/legacy/Cubicle%20Trial/bg.png");
 	background-position: center;
 	background-size: cover;
 	color: white;
@@ -48,7 +48,7 @@ code {
 }
 
 .semiJumboTwo {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("https://outmodedchip64.github.io/PlayerPixel%20Development/bg.png");
+	background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("https://outmodedchip64.github.io/legacy/PlayerPixel%20Development/bg.png");
 	background-position: center;
 	background-size: cover;
 	color: white;
