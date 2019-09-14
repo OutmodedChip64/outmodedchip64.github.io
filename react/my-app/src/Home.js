@@ -2,7 +2,7 @@ import React from 'react';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
@@ -24,7 +24,7 @@ class Home extends React.Component {
                 <br/>
                 <h4>Check out my new blog with my tech tutorials</h4>
                 <br/>
-                <NavLink to="/blog"><Button href="/playerpixel">Check it out!</Button></NavLink>
+                <Link to="/blog"><Button href="/playerpixel">Check it out!</Button></Link>
               </div>
             </div>
           </Jumbotron>
@@ -35,7 +35,7 @@ class Home extends React.Component {
                 <br/>
                 <h4>Check out the development of a new 2d game by AEI Games here</h4>
                 <br/>
-                <NavLink to="/playerpixel"><Button href="/playerpixel">Play now!</Button></NavLink>
+                <Link to="/playerpixel"><Button href="/playerpixel">Play now!</Button></Link>
               </div>
             </div>
           </Jumbotron>
@@ -46,7 +46,7 @@ class Home extends React.Component {
                 <br/>
                 <h4>Try my 3d platformer Cubicle here</h4>
                 <br/>
-                <NavLink to="/cubicle"><Button href="/cubicle">Play now!</Button></NavLink>
+                <Link to="/cubicle"><Button href="/cubicle">Play now!</Button></Link>
               </div>
             </div>
           </Jumbotron>

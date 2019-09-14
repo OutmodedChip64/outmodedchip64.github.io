@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Route, NavLink, Switch } from "react-router-dom";
+import { Route, Link, Switch } from "react-router-dom";
 import Home from './Home';
 import Cubicle from './Cubicle';
 import PlayerPixel from './PlayerPixel';
@@ -16,7 +16,7 @@ function App() {
     <Switch>
       <div>
         <Navbar bg="light" expand="lg" className="headerNav">
-          <Navbar.Brand><NavLink to="/" className="navBrand">
+          <Navbar.Brand><Link to="/" className="navBrand">
             <img
               alt="EFweb Logo"
               src={logo}
@@ -24,15 +24,15 @@ function App() {
               height="30"
               className="d-inline-block align-top"
             />
-            {'  EFweb'}</NavLink>
+            {'  EFweb'}</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link><NavLink to="/cubicle" className="navLink">Cubicle Trial</NavLink></Nav.Link>
-              <Nav.Link><NavLink to="/playerpixel" className="navLink">PlayerPixel Development</NavLink></Nav.Link>
-              <Nav.Link><NavLink to="/flynnbot" className="navLink">FlynnBot</NavLink></Nav.Link>
-              <Nav.Link><NavLink to="/blog" className="navLink">Blog</NavLink></Nav.Link>
+              <Nav.Link><Link to="/cubicle" className="navLink">Cubicle Trial</Link></Nav.Link>
+              <Nav.Link><Link to="/playerpixel" className="navLink">PlayerPixel Development</Link></Nav.Link>
+              <Nav.Link><Link to="/flynnbot" className="navLink">FlynnBot</Link></Nav.Link>
+              <Nav.Link><Link to="/blog" className="navLink">Blog</Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
