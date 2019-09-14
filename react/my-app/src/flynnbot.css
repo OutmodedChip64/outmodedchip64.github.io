@@ -1,0 +1,36 @@
+.flynnbotFrame {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.flynnbotTitle {
+  height: 60px;
+  background-color: blue;
+  color: white;
+}
+
+.flynnbotConversation {
+  height: 395px;
+  display: block;
+}
+
+.flynnbotMessage {
+  height: 43px;
+}
+
+.flynnbotTextBox {
+  width: 304px;
+  border-color: black;
+  border-radius: 0px;
+  margin-left: -1px;
+  margin-top: 1px;
+}
+
+.flynnbotSubmit {
+  margin-top: 1px;
+  height: 42px;
+  float: right;
+}
