@@ -9,7 +9,7 @@ function Blog() {
       <br/>
       <h1>Blog down for redesign</h1>
       <br/>
-      <Button href="/legacy/blog">Click here to go to the old blog</Button>
+      <Button href="/legacy/blog">Click here to go to the old (and very ugly) blog</Button>
     </div>
   )
 }
