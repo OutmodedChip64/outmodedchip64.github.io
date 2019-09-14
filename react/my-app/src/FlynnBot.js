@@ -1,10 +1,6 @@
 import React from 'react';
 
 class FlynnBot extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="main text-center">
