@@ -10,14 +10,20 @@ class FlynnBot extends React.Component {
     super(props);
 
     this.messages = []
+    this.state = {
+        messageBox: ""
+    }
   }
 
-  createTable = () => {
-    this.messages.push("Hello")
-    this.messages.push("Hey")
-    this.messages.push("Hi")
-
-    return this.messages
+  handleMessage() {
+    alert("Handling message")
+    //let { previousMessages } = []
+    //if (this.state.messages != null) {
+    //  previousMessages = this.state.messages
+    //}
+    //this.setState({ messages: [previousMessages, <Form.Label>{this.messageBox}</Form.Label>, <br/>] })
+    this.messages.push(<Form.Label>{this.messageBox}</Form.Label>)
+    this.messages.push(<br/>)
   }
 
   render() {
@@ -28,21 +34,21 @@ class FlynnBot extends React.Component {
             <h1 className="text-center">FlynnBot</h1>
           </div>
           <div className="flynnbotConversation">
-            <Form>
+            <Form onSubmit={this.createTable}>
               <Form.Label>FlynnBot: Hello</Form.Label>
               <br/>
               <Form.Label>You: Oh hey</Form.Label>
-              {this.createTable()}
+              {this.messages}
             </Form>
           </div>
           <div className="flynnbotMessage">
             <Form>
               <Form.Row>
                 <Col>
-                  <Form.Control className="flynnbotTextBox" type="message" placeholder="Enter message" />
+                  <Form.Control value={this.messageBox} className="flynnbotTextBox" type="message" placeholder="Enter message" />
                 </Col>
                 <Col>
-                  <Button className="flynnbotSubmit" variant="primary" onClick={this.createTable()} type="submit">Submit</Button>
+                  <Button className="flynnbotSubmit" variant="primary" onClick={this.handleMessage}>Submit</Button>
                 </Col>
               </Form.Row>
             </Form>
