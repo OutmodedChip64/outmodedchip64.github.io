@@ -29,6 +29,8 @@ class FlynnBot extends React.Component {
   render() {
     return (
       <div className="main">
+		<br/>
+		<h1 className="text-center">FlynnBot is currently in development and is unfunctional.</h1>
         <div className="flynnbotFrame">
           <div className="flynnbotTitle">
             <h1 className="text-center">FlynnBot</h1>
