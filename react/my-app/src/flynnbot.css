@@ -1,7 +1,7 @@
 .flynnbotApp {
   margin: 0 auto;
   margin-top: 40px;
-  height: 700px;
+  height: 710px;
   width: 940px;
 }
 
@@ -40,6 +40,7 @@
 }
 
 .flynnbotResponse {
+  margin: 0 10px;
   margin-top: 30px;
 }
 
@@ -47,9 +48,21 @@
   white-space: pre-line;
 }
 
-@media (max-width: 1174px) {
-  .main {
+.requestDescription {
+  margin: 0 10px;
+}
+
+@media (max-width: 1191px) {
+  .flynnbotApp {
     width: 100%;
+  }
+
+  .flynnbotFrame {
+    width: 60%;
+  }
+
+  .requestFrame {
+    width: calc(40% - 40px);
   }
 }
 
@@ -61,18 +74,14 @@
   .flynnbotFrame {
     margin: 0 auto;
     width: 100%;
-    height: 500px;
+    height: 400px;
   }
 
   .requestFrame {
     margin-top: 10px;
     display: block;
     margin: 0 auto;
-  }
-}
-
-@media (max-width: 324px) {
-  .requestFrame {
     width: 100%;
+    height: 300px;
   }
 }

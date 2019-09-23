@@ -1,11 +1,6 @@
 import React from 'react';
 import './flynnbot.css';
-import './App.css';
 import DisqusFrame from './DisqusFrame';
-
-import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 
 class FlynnBotApp extends React.Component {
   constructor(props) {
@@ -99,7 +94,10 @@ class FlynnBotRequest extends React.Component {
         this.setState({response: 'Successfully requested!'});
         console.info("Server responded with: " + response.status)
       } else {
-        this.setState({response: 'Question already has an answer or has already been requested.'});
+        response.json().then(result => {
+          this.setState({response: result});
+          console.info("result is " + result)
+        })
         console.warn("Server responded with: " + response.status)
       }
     }).catch(error => {
@@ -113,14 +111,14 @@ class FlynnBotRequest extends React.Component {
     return (
       <form onSubmit={this.handleSubmit} className="requestFrame">
         <h1 className="text-center">Requests</h1>
-        <p className="text-center">Here you can send anonymous requests for questions, messages, etc.</p>
+        <p className="text-center requestDescription">Here you can send anonymous requests for questions, messages, etc.</p>
         <div className="flynnbotInput">
           <label>
             <input type="text" value={this.state.value} onChange={this.handleChange} placeholder="Type request..." />
           </label>
         </div>
         <div className="flynnbotButtonDiv">
-          <input className="flynnbotButton" type="submit" value="Submit" />
+          <input className="flynnbotButton" type="submit" value="Send" />
         </div>
         <div className="flynnbotResponseDiv">
           <h4 className="text-center flynnbotResponse">{this.state.response}</h4>
@@ -137,6 +135,7 @@ function FlynnBot() {
         <FlynnBotApp />
         <FlynnBotRequest />
       </div>
+      <DisqusFrame identifier="flynnbot" />
     </div>
   )
 }
