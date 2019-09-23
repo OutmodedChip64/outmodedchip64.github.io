@@ -17,6 +17,17 @@ class Home extends React.Component {
         </Jumbotron>
 
         <div className="main">
+          <Jumbotron className="mainJumbos flynnbotBG">
+            <div className="mainJumbosCenter">
+              <div className="mainJumbosContent">
+                <h1>FlynnBot</h1>
+                <br/>
+                <h4>Try my work-in-progress virtual assistant, FlynnBot</h4>
+                <br/>
+                <Link to="/blog"><Button href="/playerpixel">Try it out!</Button></Link>
+              </div>
+            </div>
+          </Jumbotron>
           <Jumbotron className="mainJumbos blogBG">
             <div className="mainJumbosCenter">
               <div className="mainJumbosContent">

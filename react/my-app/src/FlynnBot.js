@@ -16,8 +16,9 @@ class FlynnBotApp extends React.Component {
   }
 
   handleSubmit(event) {
+    var inputValue = this.state.value
     this.setState({value: '', response: 'Loading...'});
-    var url = "https://cors-anywhere.herokuapp.com/http://75.139.196.30:5000/response/" + this.state.value;
+    var url = "https://cors-anywhere.herokuapp.com/http://75.139.196.30:5000/response/" + inputValue;
     var newResponse = "";
 
     var request = new XMLHttpRequest();
@@ -84,14 +85,15 @@ class FlynnBotRequest extends React.Component {
   }
 
   handleSubmit(event) {
+    var inputValue = this.state.value
     this.setState({value: '', response: 'Sending...'});
 
-    fetch('https://cors-anywhere.herokuapp.com/http://75.139.196.30:5000/response/' + this.state.value, {
+    fetch('https://cors-anywhere.herokuapp.com/http://75.139.196.30:5000/response/' + inputValue, {
       method: 'POST',
     })
     .then(response => {
       if (response.status === 201) {
-        this.setState({response: 'Successfully requested!'});
+        this.setState({response: 'Successfully requested "' + inputValue + '"'});
         console.info("Server responded with: " + response.status)
       } else {
         response.json().then(result => {
