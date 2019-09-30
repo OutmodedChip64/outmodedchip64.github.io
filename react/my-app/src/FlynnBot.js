@@ -1,6 +1,5 @@
 import React from 'react';
 import './flynnbot.css';
-import DisqusFrame from './DisqusFrame';
 
 class FlynnBotApp extends React.Component {
   constructor(props) {
@@ -137,7 +136,6 @@ function FlynnBot() {
         <FlynnBotApp />
         <FlynnBotRequest />
       </div>
-      <DisqusFrame identifier="flynnbot" />
     </div>
   )
 }
