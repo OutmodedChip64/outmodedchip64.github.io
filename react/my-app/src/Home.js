@@ -30,23 +30,12 @@ class Home extends React.Component {
             </div>
           </Jumbotron>
           */}
-          <Jumbotron className="mainJumbos flynnbotBG">
-            <div className="mainJumbosCenter">
-              <div className="mainJumbosContent">
-                <h1>FlynnBot</h1>
-                <br/>
-                <h4>Try my work-in-progress virtual assistant, FlynnBot</h4>
-                <br/>
-                <Link to="/flynnbot"><Button href="/flynnbot">Try it out!</Button></Link>
-              </div>
-            </div>
-          </Jumbotron>
           <Jumbotron className="mainJumbos playerpixelBG">
             <div className="mainJumbosCenter">
               <div className="mainJumbosContent">
-                <h1>PlayerPixel Development</h1>
+                <h1>PlayerPixel</h1>
                 <br/>
-                <h4>Check out the development of a new 2d game by AEI Games here</h4>
+                <h4>Check out the development of a new 2D game by AEI Games here</h4>
                 <br/>
                 <Link to="/playerpixel"><Button href="/playerpixel">Play now!</Button></Link>
               </div>
@@ -55,9 +44,9 @@ class Home extends React.Component {
           <Jumbotron className="mainJumbos cubicleBG">
             <div className="mainJumbosCenter">
               <div className="mainJumbosContent">
-                <h1>Cubicle Trial</h1>
+                <h1>Cubicle</h1>
                 <br/>
-                <h4>Try my 3d platformer Cubicle here</h4>
+                <h4>Try my 3D platformer Cubicle here</h4>
                 <br/>
                 <Link to="/cubicle"><Button href="/cubicle">Play now!</Button></Link>
               </div>
