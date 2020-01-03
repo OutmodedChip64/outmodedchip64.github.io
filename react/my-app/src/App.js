@@ -45,7 +45,7 @@ function App() {
       </div>
 
       <div className="footer text-center">
-        <p className="footerText">Copyright © 2019 All rights reserved. <a className="lightBlueLink" href="https://outmodedchip64.github.io">EFweb</a></p>
+        <p className="footerText">Copyright © 2020 All rights reserved. <a className="lightBlueLink" href="https://outmodedchip64.github.io">EFweb</a></p>
       </div>
     </div>
   );
