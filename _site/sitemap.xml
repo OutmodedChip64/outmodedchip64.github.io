@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/legacy/blog/How-to-dual-boot-Ubuntu-18-10-with-Windows-10</loc>
+<loc>http://localhost:4000/How-to-dual-boot-Ubuntu-18-10-with-Windows-10</loc>
 <lastmod>2019-01-11T00:00:00-08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/legacy/blog/How-to-Create-a-Spigot-Server-for-Minecraft</loc>
+<loc>http://localhost:4000/How-to-Create-a-Spigot-Server-for-Minecraft</loc>
 <lastmod>2019-08-20T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Cubicle%20Trial/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/PlayerPixel%20Development/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/blog/</loc>
 </url>
 </urlset>

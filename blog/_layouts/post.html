@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<img class="post-bg-image" src="{{ page.background-image }}" alt="TitlePicture">
+
+<div class="post post-headers">
+  <h1 class="text-center pad-the-top">{{ page.name }}</h1>
+  <p class="text-center meta pad-the-bottom">{{ page.author }} • {{ page.date | date: "%b %d, %Y" }}</p>
+</div>
+
+
+<div class="blog-text">
+  {{ content }}
+</div>

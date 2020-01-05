@@ -1,0 +1,16 @@
+---
+layout: default
+title: EFweb Blog
+---
+<ul class="posts">
+
+  {% for post in site.posts %}
+	<div class="jumbotron blog-post-item" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ post.background-image }});">
+		<a href="{{ post.url }}" title="{{ post.title }}"><h1>{{ post.name }}</h1></a>
+		<small>{{ post.author }} • {{ post.date | date_to_string }}</small>
+		<p class="lead">{{ post.excerpt }}</p>
+	</div>
+  {% endfor %}
+</ul>
+
+<p class="text-center pad-the-top pad-the-bottom">You've reached the end.</p>
