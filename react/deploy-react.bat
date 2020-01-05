@@ -2,7 +2,7 @@
 cd my-app
 echo * Changed directory to "\react\my-app"
 
-npm run build
+call npm run build
 echo * Built react app
 
 cd ..\..
