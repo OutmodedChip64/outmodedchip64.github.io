@@ -138,10 +138,6 @@ code {
 .blog-footer {
 	background-color: #dddddd;
 	margin-top: 40px;
-	
-	position: absolute;
-	width: 100%;
-	bottom: 0;
 }
 
 .blog-text {
