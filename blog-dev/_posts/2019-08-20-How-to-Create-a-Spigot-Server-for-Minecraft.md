@@ -1,7 +1,7 @@
 ---
 layout: post
 name: How to Create a Spigot Server for Minecraft
-background-image: /blog-images/How%20to%20Create%20a%20Spigot%20Server%20for%20Minecraft/TitlePicture.png
+background-image: /blog/blog-images/How%20to%20Create%20a%20Spigot%20Server%20for%20Minecraft/TitlePicture.png
 author: Everett Flynn
 ---
 

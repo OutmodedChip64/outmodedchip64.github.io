@@ -1,6 +1,6 @@
 title: EFweb Blog
-source: blog/
+source: blog-dev/
 markdown: kramdown
-permalink: blog/:title
+permalink: /:title
 plugins:
   - jekyll-sitemap
