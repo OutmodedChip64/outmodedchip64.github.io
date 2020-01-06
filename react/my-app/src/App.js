@@ -5,7 +5,6 @@ import { Route, NavLink, Switch } from "react-router-dom";
 import Home from './Home';
 import Cubicle from './Cubicle';
 import PlayerPixel from './PlayerPixel';
-import Blog from './Blog';
 import UnknownPage from './UnknownPage';
 
 import Navbar from 'react-bootstrap/Navbar';
@@ -30,6 +29,7 @@ function App() {
           <Nav className="ml-auto">
             <Nav.Link><NavLink to="/cubicle" className="navLink">Cubicle</NavLink></Nav.Link>
             <Nav.Link><NavLink to="/playerpixel" className="navLink">PlayerPixel</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/blog" className="navLink">Blog</NavLink></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -39,7 +39,10 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route path="/cubicle" component={Cubicle}/>
           <Route path="/playerpixel" component={PlayerPixel}/>
-          <Route path="/blog" component={Blog}/>
+          <Route path='/blog' component={() => {
+            window.location.reload();
+            return null;
+          }}/>
           <Route component={UnknownPage}/>
         </Switch>
       </div>
