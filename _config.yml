@@ -2,5 +2,3 @@ title: EFweb Blog
 source: blog-dev/
 markdown: kramdown
 permalink: /:title
-plugins:
-  - jekyll-sitemap

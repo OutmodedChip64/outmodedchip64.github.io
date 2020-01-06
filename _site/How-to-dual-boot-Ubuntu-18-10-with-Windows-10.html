@@ -9,7 +9,7 @@
   <body>
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light">
-	  <p class="navbar-brand brand-title"><a class="navbar-brand brand-link" href="/blog/">EFweb Blog (BETA)</a></p>
+	  <p class="navbar-brand brand-title"><a class="navbar-brand brand-link" href="/blog/">EFweb Blog</a></p>
 	  <div class="navbar-nav ml-auto">
             <a href="/" class="nav-item nav-link back-to-efweb">Back to EFweb</a>
         </div>
@@ -68,15 +68,15 @@
 <ol>
   <li>
     <p>Right-click the Start button at the bottom-left of the screen, and press “Disk Management”.<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/1.png" alt="Step 1" /></p>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/1.png" alt="Step 1" /></p>
   </li>
   <li>
     <p>Once it loads, at the bottom, under “Disk 0,” right-click the “Windows” partition and press “Shrink volume…”<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/2.png" alt="Step 2" /></p>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/2.png" alt="Step 2" /></p>
   </li>
   <li>
     <p>Now decide how much storage space you want to give Ubuntu, and multiply that by 1,024 (to convert GB to MB), but make sure you give it more than 25 GB. I would recommend at least 40 GB, but it’s your computer, and I don’t know why you are dual booting. Enter that number in the “Enter the amount of space to shrink in MB” part, and make sure that number is not bigger than the number in “Size of available shrink space in MB”.<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/3.png" alt="Step 3" /></p>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/3.png" alt="Step 3" /></p>
   </li>
 </ol>
 
@@ -90,7 +90,7 @@
       <li>“Partition scheme” = Select MBR</li>
       <li>“Format options” = Keep everything default<br />
 After you’ve done the above, go ahead and press “START”.<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/4.png" alt="Step 4" /></li>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/4.png" alt="Step 4" /></li>
     </ul>
   </li>
 </ol>
@@ -100,15 +100,15 @@ After you’ve done the above, go ahead and press “START”.<br />
 <ol>
   <li>
     <p>When it finishes, you can close Rufus. Now we are going to check if Secure Boot is enabled in the BIOS. If you are sure Secure Boot is disabled, then you can skip this step. To enter the BIOS, hold down the Shift key while pressing restart on your computer. You should then come to a screen that says “Choose an option”. Select “Troubleshoot” &gt; “Advanced options” &gt; “UEFI Firmware Settings”.<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/5.jpg" alt="Step 5" /></p>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/5.jpg" alt="Step 5" /></p>
   </li>
   <li>
     <p>Now you should boot up into the BIOS (On my HP, it boot into a “Startup Menu” and I just chose the option that said “BIOS Setup”). Search through the settings for something like “Secure Boot Configuration” (I found it under “Security”), and select it. If it gives you a warning, just skip through it and disable secure boot. You will also want to search for and enable Legacy Support. After that, you can save changes to the BIOS and exit.<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/6.jpg" alt="Step 6" /></p>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/6.jpg" alt="Step 6" /></p>
   </li>
   <li>
     <p>Next, Google how to open the startup boot menu with your computer provider. On my HP, I continually press ESC while starting up my computer. Then, select Boot Device Options and choose your USB drive (The name should be the brand of the drive)<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/7.jpg" alt="Step 7" /></p>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/7.jpg" alt="Step 7" /></p>
   </li>
 </ol>
 
@@ -117,8 +117,8 @@ After you’ve done the above, go ahead and press “START”.<br />
 <ol>
   <li>
     <p>Ubuntu should now boot up and take you to the installation wizard. Press “Install Ubuntu,” and on the next page select your keyboard layout. Then on the “Updates and other software” page choose “Normal installation” or “Minimal installation” (Your choice) and under that, check both of the checkboxes.<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/8-1.png" alt="Step 8-1" />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/8-2.png" alt="Step 8-2" /></p>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/8-1.png" alt="Step 8-1" />
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/8-2.png" alt="Step 8-2" /></p>
   </li>
   <li>Now, this step is the part where we tell Ubuntu to install on that empty space we made above. Choose “Something else” and press Continue. Now select your free space and press “+” at the bottom, and do the following:
     <ul>
@@ -128,8 +128,8 @@ After you’ve done the above, go ahead and press “START”.<br />
       <li>“Use as” = Keep this as “Ext4 journaling file system”</li>
       <li>“Mount point” = Put this as “/”<br />
 Then press “OK”.<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/9-1.png" alt="Step 9-1" />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/9-2.png" alt="Step 9-2" /></li>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/9-1.png" alt="Step 9-1" />
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/9-2.png" alt="Step 9-2" /></li>
     </ul>
   </li>
   <li>Select the free space again, press “+,” and do the following:
@@ -139,7 +139,7 @@ Then press “OK”.<br />
       <li>“Location for the new partition” = Keep the default</li>
       <li>“Use as” = Put this as “swap area”<br />
 Then press “OK”.<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/10.png" alt="Step 10" /></li>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/10.png" alt="Step 10" /></li>
     </ul>
   </li>
   <li>Again press the free space, press “+,” and do the following:
@@ -150,14 +150,14 @@ Then press “OK”.<br />
       <li>“Use as” = Keep as “Ext4 journaling file system”</li>
       <li>“Mount point” = Put this as “/home”<br />
 Press “OK,” then “Install Now,” and review your changes to make sure it won’t install on your Windows partition. Then lastly press “Continue”<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/11-1.png" alt="Step 11-1" />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/11-2.png" alt="Step 11-2" /></li>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/11-1.png" alt="Step 11-1" />
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/11-2.png" alt="Step 11-2" /></li>
     </ul>
   </li>
   <li>On the next steps, select your location, fill out the form called “Who are you?” and Ubuntu will start installing. Once done, press “Restart Now”<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/12-1.png" alt="Step 12-1" />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/12-2.png" alt="Step 12-2" />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/12-3.png" alt="Step 12-3" /></li>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/12-1.png" alt="Step 12-1" />
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/12-2.png" alt="Step 12-2" />
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/12-3.png" alt="Step 12-3" /></li>
 </ol>
 
 <h3 id="booting-into-your-newly-installed-ubuntu">Booting into your newly installed Ubuntu</h3>
@@ -165,11 +165,11 @@ Press “OK,” then “Install Now,” and review your changes to make sure it 
 <ol>
   <li>
     <p>If you boot into Windows after restarting, don’t panic. We just need to change your system’s boot order. Go up to question 5 to get into the BIOS again. Once in the BIOS, find “Boot Order”. I found it under “Storage,” but your computer may be different. Find the Ubuntu boot source and drag it to the top.<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/13.jpeg" alt="Step 13" /></p>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/13.jpeg" alt="Step 13" /></p>
   </li>
   <li>
     <p>Save changes to the BIOS and exit. You should boot into GRUB, and you should see “Ubuntu 18.10” and “Windows Boot Manager”. Don’t panic if you don’t see Windows. If you don’t see Windows, read step 15. If not, boot into Ubuntu, and make it your own! You’ve finished!<br />
-<img src="/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/14.png" alt="Step 14" /></p>
+<img src="/blog/blog-images/How%20to%20dual%20boot%20Ubuntu%2018.10%20with%20Windows%2010/14.png" alt="Step 14" /></p>
   </li>
   <li>
     <p>If you didn’t see “Windows Boot Manager” in GRUB, just boot into Ubuntu, go in “Applications,” and find “Terminal”. Then type “sudo update-grub”. It will probably ask for a password, so type in the password you set in step 12. Once it finishes, all you have to do is reboot Ubuntu and choose “Windows Boot Manager” in GRUB to go back to Windows!</p>
